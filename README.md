@@ -2,85 +2,6 @@
 
 python package to colorize envy icons, themes, etc.
 
-## colors
-
-<div style="font-size: 32px;">
-    <span style="
-            background-color: #eea5aa;
-            color: #da4e4e;
-            border-radius: 0.5rem;
-            padding: 0.2rem;"
-    >red</span>
-    <span style="
-            background-color: #aaeea5;
-            color: #34b234;
-            border-radius: 0.5rem;
-            padding: 0.2rem;"
-    >green</span>
-    <span style="
-            background-color: #a4caee;
-            color: #438de6;
-            border-radius: 0.5rem;
-            padding: 0.2rem;"
-    >blue</span>
-    <span style="
-            background-color: #38dbd1;
-            color: #139595;
-            border-radius: 0.5rem;
-            padding: 0.2rem;"
-    >teal</span>
-    <span style="
-            background-color: #bfb3e5;
-            color: #7f54d4;
-            border-radius: 0.5rem;
-            padding: 0.2rem;"
-    >purple</span>
-    <span style="
-            background-color: #f4bed4;
-            color: #ed5e8d;
-            border-radius: 0.5rem;
-            padding: 0.2rem;"
-    >pink</span>
-    <span style="
-            background-color: #f1e774;
-            color: #b2a400;
-            border-radius: 0.5rem;
-            padding: 0.2rem"
-    >yellow</span>
-    <span style="
-            background-color: #f09e75;
-            color: #c35622;
-            border-radius: 0.5rem;
-            padding: 0.2rem"
-    >orange</span>
-    <span style="
-            background-color: #b78b7b;
-            color: #6c4532;
-            border-radius: 0.5rem;
-            padding: 0.2rem"
-    >brown</span>
-    <span style="
-            background-color: #c7cbcc;
-            color: #6f8090;
-            border-radius: 0.5rem;
-            padding: 0.2rem"
-    >slate</span>
-</div>
-
-## example blueprints
-
-![blueprint](assets/blueprint.svg)
-
-## example colorized
-
-### blue icons, light theme
-
-![blue_light](assets/blue_light.svg)
-
-### pink icons, dark theme
-
-![pink_dark](assets/pink_dark.svg)
-
 ## how does it work?
 
 the pytint module operates on a single svg file, or a directory of svg files. it
@@ -91,112 +12,100 @@ scheme.
 
 main colors:
 
--   <span style=" background-color: #00FF00; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#00FF00</span>: default color
--   <span style=" background-color: #0000FF; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#0000FF</span>: accent color
+-   <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>:
+    default color
+-   <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>:
+    accent color
 
 scheme colors:
 
--   <span style=" background-color: #FF0000; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FF0000</span>: background color
--   <span style=" background-color: #FFFFFF; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FFFFFF</span>: background accent color
--   <span style=" background-color: #000000; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#000000</span>: difference color
+-   <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>:
+    background color
+-   <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>:
+    background accent color
+-   <span style=" background-color: #000000; color: #FFF;">\#000000</span>:
+    difference color
 
 **those colors are then converted in the following way:**
 
--   <span style=" background-color: #00FF00; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#00FF00</span> &#8594; default
--   <span style=" background-color: #0000FF; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#0000FF</span> &#8594; accent
--   <span style=" background-color: #FF0000; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FF0000</span> &#8594; variant
--   <span style=" background-color: #FFFFFF; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FFFFFF</span> &#8594; alt
--   <span style=" background-color: #000000; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#000000</span> &#8594; difference
+-   <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
+    &#8594; default
+-   <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
+    &#8594; accent
+-   <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
+    &#8594; variant
+-   <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
+    &#8594; alt
+-   <span style=" background-color: #000000; color: #FFF;">\#000000</span>
+    &#8594; difference
 
 **examples:**
 
 purple color, light scheme
 
 -   default:
-    <span style=" background-color: #00FF00; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#00FF00</span> &#8594;
-    <span style=" background-color: #7F54D4; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#7F54D4</span>
--   accent: <span style=" background-color: #0000FF; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#0000FF</span> &#8594;
-    <span style=" background-color: #BFB3E5; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#BFB3E5</span>
+    <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
+    &#8594;
+    <span style=" background-color: #7F54D4; color: #FFF;">\#7F54D4</span>
+-   accent:
+    <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
+    &#8594;
+    <span style=" background-color: #BFB3E5; color: #000;">\#BFB3E5</span>
 -   variant:
-    <span style=" background-color: #FF0000; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FF0000</span> &#8594;
-    <span style=" background-color: #1A1A1A; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#1A1A1A</span>
--   alt: <span style=" background-color: #FFFFFF; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FFFFFF</span> &#8594;
-    <span style=" background-color: #262626; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#262626</span>
+    <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
+    &#8594;
+    <span style=" background-color: #1A1A1A; color: #FFF;">\#1A1A1A</span>
+-   alt: <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
+    &#8594;
+    <span style=" background-color: #262626; color: #FFF;">\#262626</span>
 -   difference:
-    <span style=" background-color: #000000; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#000000</span> &#8594;
-    <span style=" background-color: #F2F2F2; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#F2F2F2</span>
+    <span style=" background-color: #000000; color: #FFF;">\#000000</span>
+    &#8594;
+    <span style=" background-color: #F2F2F2; color: #000;">\#F2F2F2</span>
 
 yellow color, dark scheme
 
 -   default:
-    <span style=" background-color: #00FF00; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#00FF00</span> &#8594;
-    <span style=" background-color: #B2A400; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#B2A400</span>
--   accent: <span style=" background-color: #0000FF; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#0000FF</span> &#8594;
-    <span style=" background-color: #F1E774; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#F1E774</span>
+    <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
+    &#8594;
+    <span style=" background-color: #B2A400; color: #000;">\#B2A400</span>
+-   accent:
+    <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
+    &#8594;
+    <span style=" background-color: #F1E774; color: #000;">\#F1E774</span>
 -   variant:
-    <span style=" background-color: #FF0000; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FF0000</span> &#8594;
-    <span style=" background-color: #F2F2F2; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#F2F2F2</span>
--   alt: <span style=" background-color: #FFFFFF; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FFFFFF</span> &#8594;
-    <span style=" background-color: #E5E5E5; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#E5E5E5</span>
+    <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
+    &#8594;
+    <span style=" background-color: #F2F2F2; color: #000;">\#F2F2F2</span>
+-   alt: <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
+    &#8594;
+    <span style=" background-color: #E5E5E5; color: #000;">\#E5E5E5</span>
 -   difference:
-    <span style=" background-color: #000000; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#000000</span> &#8594;
-    <span style=" background-color: #1A1A1A; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#1A1A1A</span>
+    <span style=" background-color: #000000; color: #FFF;">\#000000</span>
+    &#8594;
+    <span style=" background-color: #1A1A1A; color: #FFF;">\#1A1A1A</span>
 
 orange color, dark scheme, inverted
 
 -   default:
-    <span style=" background-color: #00FF00; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#00FF00</span> &#8594;
-    <span style=" background-color: #C35622; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#C35622</span>
--   accent: <span style=" background-color: #0000FF; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#0000FF</span> &#8594;
-    <span style=" background-color: #F09E75; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#F09E75</span>
+    <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
+    &#8594;
+    <span style=" background-color: #C35622; color: #000;">\#C35622</span>
+-   accent:
+    <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
+    &#8594;
+    <span style=" background-color: #F09E75; color: #000;">\#F09E75</span>
 -   variant:
-    <span style=" background-color: #FF0000; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FF0000</span> &#8594;
-    <span style=" background-color: #1A1A1A; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#1A1A1A</span>
--   alt: <span style=" background-color: #FFFFFF; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#FFFFFF</span> &#8594;
-    <span style=" background-color: #262626; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#262626</span>
+    <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
+    &#8594;
+    <span style=" background-color: #1A1A1A; color: #FFF;">\#1A1A1A</span>
+-   alt: <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
+    &#8594;
+    <span style=" background-color: #262626; color: #FFF;">\#262626</span>
 -   difference:
-    <span style=" background-color: #000000; color: #FFF; border-radius:
-    0.5rem;padding: 0.1rem;">\#000000</span> &#8594;
-    <span style=" background-color: #F2F2F2; color: #000; border-radius:
-    0.5rem;padding: 0.1rem;">\#F2F2F2</span>
+    <span style=" background-color: #000000; color: #FFF;">\#000000</span>
+    &#8594;
+    <span style=" background-color: #F2F2F2; color: #000;">\#F2F2F2</span>
 
 ## usage
 
