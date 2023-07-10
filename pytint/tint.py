@@ -2,6 +2,10 @@ from . import PRIMARY, SECONDARY, BACKGROUND, DETAIL, INVERSE_BG
 
 
 class Tint:
+    """this is only here to make the process more modular
+    use `PyTint().tint_svg()` instead.
+    """
+
     def __init__(self, svg_in: str) -> None:
         self.__primary = PRIMARY
         self.__secondary = SECONDARY
@@ -29,6 +33,10 @@ class Tint:
 
 
 class BatchTint:
+    """this is only here to make the process more modular
+    use `PyTint().tint_batch()` instead.
+    """
+
     def __init__(self, svg_dict: dict[str, str]) -> None:
         self.__svg_dict = svg_dict
 
