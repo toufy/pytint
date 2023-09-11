@@ -46,66 +46,66 @@ purple color, light scheme
 -   default:
     <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
     &#8594;
-    <span style=" background-color: #7F54D4; color: #FFF;">\#7F54D4</span>
+    <span style=" background-color: #9141AC; color: #FFF;">\#9141AC</span>
 -   accent:
     <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
     &#8594;
-    <span style=" background-color: #BFB3E5; color: #000;">\#BFB3E5</span>
+    <span style=" background-color: #DC8ADD; color: #000;">\#DC8ADD</span>
 -   variant:
     <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
     &#8594;
-    <span style=" background-color: #1A1A1A; color: #FFF;">\#1A1A1A</span>
+    <span style=" background-color: #3D3846; color: #FFF;">\#3D3846</span>
 -   alt: <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
     &#8594;
-    <span style=" background-color: #262626; color: #FFF;">\#262626</span>
+    <span style=" background-color: #77767b; color: #FFF;">\#77767b</span>
 -   difference:
     <span style=" background-color: #000000; color: #FFF;">\#000000</span>
     &#8594;
-    <span style=" background-color: #F2F2F2; color: #000;">\#F2F2F2</span>
+    <span style=" background-color: #DEDDDA; color: #000;">\#DEDDDA</span>
 
 yellow color, dark scheme
 
 -   default:
     <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
     &#8594;
-    <span style=" background-color: #B2A400; color: #000;">\#B2A400</span>
+    <span style=" background-color: #F6D32D; color: #000;">\#F6D32D</span>
 -   accent:
     <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
     &#8594;
-    <span style=" background-color: #F1E774; color: #000;">\#F1E774</span>
+    <span style=" background-color: #F9F06B; color: #000;">\#F9F06B</span>
 -   variant:
     <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
     &#8594;
-    <span style=" background-color: #F2F2F2; color: #000;">\#F2F2F2</span>
+    <span style=" background-color: #DEDDDA; color: #000;">\#DEDDDA</span>
 -   alt: <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
     &#8594;
-    <span style=" background-color: #E5E5E5; color: #000;">\#E5E5E5</span>
+    <span style=" background-color: #FEFEFE; color: #000;">\#FEFEFE</span>
 -   difference:
     <span style=" background-color: #000000; color: #FFF;">\#000000</span>
     &#8594;
-    <span style=" background-color: #1A1A1A; color: #FFF;">\#1A1A1A</span>
+    <span style=" background-color: #3D3846; color: #FFF;">\#3D3846</span>
 
 orange color, dark scheme, inverted
 
 -   default:
     <span style=" background-color: #00FF00; color: #000;">\#00FF00</span>
     &#8594;
-    <span style=" background-color: #C35622; color: #000;">\#C35622</span>
+    <span style=" background-color: #FF7800; color: #000;">\#FF7800</span>
 -   accent:
     <span style=" background-color: #0000FF; color: #FFF;">\#0000FF</span>
     &#8594;
-    <span style=" background-color: #F09E75; color: #000;">\#F09E75</span>
+    <span style=" background-color: #FFBE6F; color: #000;">\#FFBE6F</span>
 -   variant:
     <span style=" background-color: #FF0000; color: #000;">\#FF0000</span>
     &#8594;
-    <span style=" background-color: #1A1A1A; color: #FFF;">\#1A1A1A</span>
+    <span style=" background-color: #3D3846; color: #FFF;">\#3D3846</span>
 -   alt: <span style=" background-color: #FFFFFF; color: #000;">\#FFFFFF</span>
     &#8594;
-    <span style=" background-color: #262626; color: #FFF;">\#262626</span>
+    <span style=" background-color: #77767b; color: #FFF;">\#77767b</span>
 -   difference:
     <span style=" background-color: #000000; color: #FFF;">\#000000</span>
     &#8594;
-    <span style=" background-color: #F2F2F2; color: #000;">\#F2F2F2</span>
+    <span style=" background-color: #DEDDDA; color: #000;">\#DEDDDA</span>
 
 ## usage
 
