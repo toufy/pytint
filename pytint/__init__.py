@@ -1,3 +1,22 @@
+__BLUE_DEFAULT = "#3584e4"
+__BLUE_ACCENT = "#99c1f1"
+__GREEN_DEFAULT = "#33d17a"
+__GREEN_ACCENT = "#8ff0a4"
+__YELLOW_DEFAULT = "#f6d32d"
+__YELLOW_ACCENT = "#f9f06b"
+__ORANGE_DEFAULT = "#ff7800"
+__ORANGE_ACCENT = "#ffbe6f"
+__RED_DEFAULT = "#e01b24"
+__RED_ACCENT = "#f66151"
+__PURPLE_DEFAULT = "#9141ac"
+__PURPLE_ACCENT = "#dc8add"
+__BROWN_DEFAULT = "#986a44"
+__BROWN_ACCENT = "#cdab8f"
+__LIGHT_DEFAULT = "#deddda"
+__LIGHT_ACCENT = "#fefefe"
+__DARK_DEFAULT = "#3d3846"
+__DARK_ACCENT = "#77767b"
+
 PRIMARY: list[str] = ["#00ff00", "#00FF00"]
 SECONDARY: list[str] = ["#0000ff", "#0000FF"]
 BACKGROUND: list[str] = ["#ff0000", "#FF0000"]
@@ -5,45 +24,44 @@ DETAIL: list[str] = ["#ffffff", "#FFFFFF"]
 INVERSE_BG: list[str] = ["#000000"]
 
 DEFAULTS: dict[str, str] = {
-    "default": "#438de6",
-    "accent": "#a4caee",
-    "variant": "#f2f2f2",
-    "alt": "#e5e5e5",
-    "difference": "#1a1a1a",
+    "default": __BLUE_DEFAULT,
+    "accent": __BLUE_ACCENT,
+    "variant": __LIGHT_DEFAULT,
+    "alt": __LIGHT_ACCENT,
+    "difference": __DARK_DEFAULT,
 }
 SCHEMES: dict[str, dict[str, str]] = {
     "dark": {
-        "variant": "#f2f2f2",
-        "alt": "#e5e5e5",
-        "difference": "#1a1a1a",
+        "variant": __LIGHT_DEFAULT,
+        "alt": __LIGHT_ACCENT,
+        "difference": __DARK_DEFAULT,
     },
     "light": {
-        "variant": "#1a1a1a",
-        "alt": "#262626",
-        "difference": "#f2f2f2",
+        "variant": __DARK_DEFAULT,
+        "alt": __DARK_ACCENT,
+        "difference": __LIGHT_DEFAULT,
     },
 }
 INVERSE_SCHEMES: dict[str, dict[str, str]] = {
     "dark": {
-        "variant": "#1a1a1a",
-        "alt": "#262626",
-        "difference": "#f2f2f2",
+        "variant": __DARK_DEFAULT,
+        "alt": __DARK_ACCENT,
+        "difference": __LIGHT_DEFAULT,
     },
     "light": {
-        "variant": "#f2f2f2",
-        "alt": "#e5e5e5",
-        "difference": "#1a1a1a",
+        "variant": __LIGHT_DEFAULT,
+        "alt": __LIGHT_ACCENT,
+        "difference": __DARK_DEFAULT,
     },
 }
 COLORS: dict[str, dict[str, str]] = {
-    "red": {"default": "#da4e4e", "accent": "#eea5aa"},
-    "green": {"default": "#34b234", "accent": "#aaeea5"},
-    "blue": {"default": "#438de6", "accent": "#a4caee"},
-    "teal": {"default": "#139595", "accent": "#38dbd1"},
-    "purple": {"default": "#7f54d4", "accent": "#bfb3e5"},
-    "pink": {"default": "#ed5e8d", "accent": "#f4bed4"},
-    "yellow": {"default": "#b2a400", "accent": "#f1e774"},
-    "orange": {"default": "#c35622", "accent": "#f09e75"},
-    "brown": {"default": "#6c4532", "accent": "#b78b7b"},
-    "slate": {"default": "#6f8090", "accent": "#c7cbcc"},
+    "blue": {"default": __BLUE_DEFAULT, "accent": __BLUE_ACCENT},
+    "green": {"default": __GREEN_DEFAULT, "accent": __GREEN_ACCENT},
+    "yellow": {"default": __YELLOW_DEFAULT, "accent": __YELLOW_ACCENT},
+    "orange": {"default": __ORANGE_DEFAULT, "accent": __ORANGE_ACCENT},
+    "red": {"default": __RED_DEFAULT, "accent": __RED_ACCENT},
+    "purple": {"default": __PURPLE_DEFAULT, "accent": __PURPLE_ACCENT},
+    "brown": {"default": __BROWN_DEFAULT, "accent": __BROWN_ACCENT},
+    "light": {"default": __LIGHT_DEFAULT, "accent": __LIGHT_ACCENT},
+    "dark": {"default": __DARK_DEFAULT, "accent": __DARK_ACCENT},
 }
