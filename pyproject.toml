@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytint"
-version = "1.0.2"
+version = "1.0.3"
 description = "python package to colorize envy icons, themes, etc."
 authors = ["toufy <ar.toufic@protonmail.com>"]
 license = "GPL-3.0-or-later"
